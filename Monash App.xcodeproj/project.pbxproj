@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12768511212D4CCA00C6544F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768510212D4CCA00C6544F /* AppDelegate.swift */; };
+		12768513212D4CCA00C6544F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768512212D4CCA00C6544F /* ViewController.swift */; };
+		12768516212D4CCA00C6544F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12768514212D4CCA00C6544F /* Main.storyboard */; };
+		12768519212D4CCA00C6544F /* Monash_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12768517212D4CCA00C6544F /* Monash_App.xcdatamodeld */; };
+		1276851B212D4CCC00C6544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1276851A212D4CCC00C6544F /* Assets.xcassets */; };
+		1276851E212D4CCC00C6544F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1276851C212D4CCC00C6544F /* LaunchScreen.storyboard */; };
+		12768529212D4CCD00C6544F /* Monash_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768528212D4CCD00C6544F /* Monash_AppTests.swift */; };
+		12768534212D4CCD00C6544F /* Monash_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768533212D4CCD00C6544F /* Monash_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12768525212D4CCD00C6544F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12768505212D4CCA00C6544F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1276850C212D4CCA00C6544F;
+			remoteInfo = "Monash App";
+		};
+		12768530212D4CCD00C6544F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12768505212D4CCA00C6544F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1276850C212D4CCA00C6544F;
+			remoteInfo = "Monash App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1276850D212D4CCA00C6544F /* Monash App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monash App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12768510212D4CCA00C6544F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12768512212D4CCA00C6544F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12768515212D4CCA00C6544F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12768518212D4CCA00C6544F /* Monash_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Monash_App.xcdatamodel; sourceTree = "<group>"; };
+		1276851A212D4CCC00C6544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1276851D212D4CCC00C6544F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1276851F212D4CCC00C6544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12768524212D4CCD00C6544F /* Monash AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12768528212D4CCD00C6544F /* Monash_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_AppTests.swift; sourceTree = "<group>"; };
+		1276852A212D4CCD00C6544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1276852F212D4CCD00C6544F /* Monash AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12768533212D4CCD00C6544F /* Monash_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_AppUITests.swift; sourceTree = "<group>"; };
+		12768535212D4CCD00C6544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1276850A212D4CCA00C6544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12768521212D4CCD00C6544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1276852C212D4CCD00C6544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12768504212D4CCA00C6544F = {
+			isa = PBXGroup;
+			children = (
+				1276850F212D4CCA00C6544F /* Monash App */,
+				12768527212D4CCD00C6544F /* Monash AppTests */,
+				12768532212D4CCD00C6544F /* Monash AppUITests */,
+				1276850E212D4CCA00C6544F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1276850E212D4CCA00C6544F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1276850D212D4CCA00C6544F /* Monash App.app */,
+				12768524212D4CCD00C6544F /* Monash AppTests.xctest */,
+				1276852F212D4CCD00C6544F /* Monash AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1276850F212D4CCA00C6544F /* Monash App */ = {
+			isa = PBXGroup;
+			children = (
+				12768510212D4CCA00C6544F /* AppDelegate.swift */,
+				12768512212D4CCA00C6544F /* ViewController.swift */,
+				12768514212D4CCA00C6544F /* Main.storyboard */,
+				1276851A212D4CCC00C6544F /* Assets.xcassets */,
+				1276851C212D4CCC00C6544F /* LaunchScreen.storyboard */,
+				1276851F212D4CCC00C6544F /* Info.plist */,
+				12768517212D4CCA00C6544F /* Monash_App.xcdatamodeld */,
+			);
+			path = "Monash App";
+			sourceTree = "<group>";
+		};
+		12768527212D4CCD00C6544F /* Monash AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				12768528212D4CCD00C6544F /* Monash_AppTests.swift */,
+				1276852A212D4CCD00C6544F /* Info.plist */,
+			);
+			path = "Monash AppTests";
+			sourceTree = "<group>";
+		};
+		12768532212D4CCD00C6544F /* Monash AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12768533212D4CCD00C6544F /* Monash_AppUITests.swift */,
+				12768535212D4CCD00C6544F /* Info.plist */,
+			);
+			path = "Monash AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1276850C212D4CCA00C6544F /* Monash App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12768538212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash App" */;
+			buildPhases = (
+				12768509212D4CCA00C6544F /* Sources */,
+				1276850A212D4CCA00C6544F /* Frameworks */,
+				1276850B212D4CCA00C6544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monash App";
+			productName = "Monash App";
+			productReference = 1276850D212D4CCA00C6544F /* Monash App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12768523212D4CCD00C6544F /* Monash AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1276853B212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash AppTests" */;
+			buildPhases = (
+				12768520212D4CCD00C6544F /* Sources */,
+				12768521212D4CCD00C6544F /* Frameworks */,
+				12768522212D4CCD00C6544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12768526212D4CCD00C6544F /* PBXTargetDependency */,
+			);
+			name = "Monash AppTests";
+			productName = "Monash AppTests";
+			productReference = 12768524212D4CCD00C6544F /* Monash AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1276852E212D4CCD00C6544F /* Monash AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1276853E212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash AppUITests" */;
+			buildPhases = (
+				1276852B212D4CCD00C6544F /* Sources */,
+				1276852C212D4CCD00C6544F /* Frameworks */,
+				1276852D212D4CCD00C6544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12768531212D4CCD00C6544F /* PBXTargetDependency */,
+			);
+			name = "Monash AppUITests";
+			productName = "Monash AppUITests";
+			productReference = 1276852F212D4CCD00C6544F /* Monash AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12768505212D4CCA00C6544F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "林洪钰";
+				TargetAttributes = {
+					1276850C212D4CCA00C6544F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					12768523212D4CCD00C6544F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1276850C212D4CCA00C6544F;
+					};
+					1276852E212D4CCD00C6544F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1276850C212D4CCA00C6544F;
+					};
+				};
+			};
+			buildConfigurationList = 12768508212D4CCA00C6544F /* Build configuration list for PBXProject "Monash App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12768504212D4CCA00C6544F;
+			productRefGroup = 1276850E212D4CCA00C6544F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1276850C212D4CCA00C6544F /* Monash App */,
+				12768523212D4CCD00C6544F /* Monash AppTests */,
+				1276852E212D4CCD00C6544F /* Monash AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1276850B212D4CCA00C6544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1276851E212D4CCC00C6544F /* LaunchScreen.storyboard in Resources */,
+				1276851B212D4CCC00C6544F /* Assets.xcassets in Resources */,
+				12768516212D4CCA00C6544F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12768522212D4CCD00C6544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1276852D212D4CCD00C6544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12768509212D4CCA00C6544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12768513212D4CCA00C6544F /* ViewController.swift in Sources */,
+				12768511212D4CCA00C6544F /* AppDelegate.swift in Sources */,
+				12768519212D4CCA00C6544F /* Monash_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12768520212D4CCD00C6544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12768529212D4CCD00C6544F /* Monash_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1276852B212D4CCD00C6544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12768534212D4CCD00C6544F /* Monash_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12768526212D4CCD00C6544F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1276850C212D4CCA00C6544F /* Monash App */;
+			targetProxy = 12768525212D4CCD00C6544F /* PBXContainerItemProxy */;
+		};
+		12768531212D4CCD00C6544F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1276850C212D4CCA00C6544F /* Monash App */;
+			targetProxy = 12768530212D4CCD00C6544F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12768514212D4CCA00C6544F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12768515212D4CCA00C6544F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1276851C212D4CCC00C6544F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1276851D212D4CCC00C6544F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12768536212D4CCD00C6544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12768537212D4CCD00C6544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12768539212D4CCD00C6544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1276853A212D4CCD00C6544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1276853C212D4CCD00C6544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash App.app/Monash App";
+			};
+			name = Debug;
+		};
+		1276853D212D4CCD00C6544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monash App.app/Monash App";
+			};
+			name = Release;
+		};
+		1276853F212D4CCD00C6544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash App";
+			};
+			name = Debug;
+		};
+		12768540212D4CCD00C6544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Monash AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Monash.Monash-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monash App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12768508212D4CCA00C6544F /* Build configuration list for PBXProject "Monash App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12768536212D4CCD00C6544F /* Debug */,
+				12768537212D4CCD00C6544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12768538212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12768539212D4CCD00C6544F /* Debug */,
+				1276853A212D4CCD00C6544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1276853B212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1276853C212D4CCD00C6544F /* Debug */,
+				1276853D212D4CCD00C6544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1276853E212D4CCD00C6544F /* Build configuration list for PBXNativeTarget "Monash AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1276853F212D4CCD00C6544F /* Debug */,
+				12768540212D4CCD00C6544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12768517212D4CCA00C6544F /* Monash_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12768518212D4CCA00C6544F /* Monash_App.xcdatamodel */,
+			);
+			currentVersion = 12768518212D4CCA00C6544F /* Monash_App.xcdatamodel */;
+			path = Monash_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12768505212D4CCA00C6544F /* Project object */;
+}

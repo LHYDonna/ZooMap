@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1267E76D213EAEFD00FA1200 /* IconCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267E76C213EAEFD00FA1200 /* IconCollectionViewController.swift */; };
+		1267E76F213EAF6A00FA1200 /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267E76E213EAF6A00FA1200 /* IconCollectionViewCell.swift */; };
 		12768511212D4CCA00C6544F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768510212D4CCA00C6544F /* AppDelegate.swift */; };
 		12768513212D4CCA00C6544F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768512212D4CCA00C6544F /* ViewController.swift */; };
 		12768516212D4CCA00C6544F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12768514212D4CCA00C6544F /* Main.storyboard */; };
@@ -15,6 +17,16 @@
 		1276851E212D4CCC00C6544F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1276851C212D4CCC00C6544F /* LaunchScreen.storyboard */; };
 		12768529212D4CCD00C6544F /* Monash_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768528212D4CCD00C6544F /* Monash_AppTests.swift */; };
 		12768534212D4CCD00C6544F /* Monash_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768533212D4CCD00C6544F /* Monash_AppUITests.swift */; };
+		12768543212D4D1000C6544F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12768542212D4D1000C6544F /* MapKit.framework */; };
+		12768545212D4D1E00C6544F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12768544212D4D1E00C6544F /* CoreData.framework */; };
+		12768547212D84A200C6544F /* AddAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768546212D84A200C6544F /* AddAnimalViewController.swift */; };
+		1276854B212D854100C6544F /* AnimalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276854A212D854100C6544F /* AnimalListViewController.swift */; };
+		12768553212E823700C6544F /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12768552212E823700C6544F /* AnimalCell.swift */; };
+		127685F52137AD3B00C6544F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127685F42137AD3B00C6544F /* DetailViewController.swift */; };
+		127686002139140200C6544F /* Animal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127685FE2139140100C6544F /* Animal+CoreDataClass.swift */; };
+		127686012139140200C6544F /* Animal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127685FF2139140100C6544F /* Animal+CoreDataProperties.swift */; };
+		1280A55A2140116500D6C16D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280A5592140116500D6C16D /* Validation.swift */; };
+		1280A55C2142139400D6C16D /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280A55B2142139400D6C16D /* CustomPointAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1267E76B213B811800FA1200 /* Monash University - Caulfield.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Monash University - Caulfield.gpx"; sourceTree = "<group>"; };
+		1267E76C213EAEFD00FA1200 /* IconCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCollectionViewController.swift; sourceTree = "<group>"; };
+		1267E76E213EAF6A00FA1200 /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
 		1276850D212D4CCA00C6544F /* Monash App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monash App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12768510212D4CCA00C6544F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12768512212D4CCA00C6544F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,17 @@
 		1276852F212D4CCD00C6544F /* Monash AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monash AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12768533212D4CCD00C6544F /* Monash_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monash_AppUITests.swift; sourceTree = "<group>"; };
 		12768535212D4CCD00C6544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12768542212D4D1000C6544F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		12768544212D4D1E00C6544F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12768546212D84A200C6544F /* AddAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimalViewController.swift; sourceTree = "<group>"; };
+		1276854A212D854100C6544F /* AnimalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewController.swift; sourceTree = "<group>"; };
+		12768552212E823700C6544F /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
+		127685F42137AD3B00C6544F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		127685FE2139140100C6544F /* Animal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		127685FF2139140100C6544F /* Animal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1280A5592140116500D6C16D /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		1280A55B2142139400D6C16D /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		1280A55D21424A4600D6C16D /* dog.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dog.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12768545212D4D1E00C6544F /* CoreData.framework in Frameworks */,
+				12768543212D4D1000C6544F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +107,15 @@
 		12768504212D4CCA00C6544F = {
 			isa = PBXGroup;
 			children = (
+				1280A55D21424A4600D6C16D /* dog.gpx */,
+				1267E76B213B811800FA1200 /* Monash University - Caulfield.gpx */,
+				127685FE2139140100C6544F /* Animal+CoreDataClass.swift */,
+				127685FF2139140100C6544F /* Animal+CoreDataProperties.swift */,
 				1276850F212D4CCA00C6544F /* Monash App */,
 				12768527212D4CCD00C6544F /* Monash AppTests */,
 				12768532212D4CCD00C6544F /* Monash AppUITests */,
 				1276850E212D4CCA00C6544F /* Products */,
+				12768541212D4D1000C6544F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +132,18 @@
 		1276850F212D4CCA00C6544F /* Monash App */ = {
 			isa = PBXGroup;
 			children = (
+				1276854A212D854100C6544F /* AnimalListViewController.swift */,
 				12768510212D4CCA00C6544F /* AppDelegate.swift */,
 				12768512212D4CCA00C6544F /* ViewController.swift */,
-				12768514212D4CCA00C6544F /* Main.storyboard */,
+				12768552212E823700C6544F /* AnimalCell.swift */,
+				1267E76E213EAF6A00FA1200 /* IconCollectionViewCell.swift */,
+				1267E76C213EAEFD00FA1200 /* IconCollectionViewController.swift */,
+				127685F42137AD3B00C6544F /* DetailViewController.swift */,
+				12768546212D84A200C6544F /* AddAnimalViewController.swift */,
+				1280A55B2142139400D6C16D /* CustomPointAnnotation.swift */,
+				1280A5592140116500D6C16D /* Validation.swift */,
 				1276851A212D4CCC00C6544F /* Assets.xcassets */,
+				12768514212D4CCA00C6544F /* Main.storyboard */,
 				1276851C212D4CCC00C6544F /* LaunchScreen.storyboard */,
 				1276851F212D4CCC00C6544F /* Info.plist */,
 				12768517212D4CCA00C6544F /* Monash_App.xcdatamodeld */,
@@ -126,6 +167,15 @@
 				12768535212D4CCD00C6544F /* Info.plist */,
 			);
 			path = "Monash AppUITests";
+			sourceTree = "<group>";
+		};
+		12768541212D4D1000C6544F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12768544212D4D1E00C6544F /* CoreData.framework */,
+				12768542212D4D1000C6544F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +311,17 @@
 			files = (
 				12768513212D4CCA00C6544F /* ViewController.swift in Sources */,
 				12768511212D4CCA00C6544F /* AppDelegate.swift in Sources */,
+				127686002139140200C6544F /* Animal+CoreDataClass.swift in Sources */,
+				1276854B212D854100C6544F /* AnimalListViewController.swift in Sources */,
+				1280A55A2140116500D6C16D /* Validation.swift in Sources */,
+				12768547212D84A200C6544F /* AddAnimalViewController.swift in Sources */,
+				12768553212E823700C6544F /* AnimalCell.swift in Sources */,
+				127685F52137AD3B00C6544F /* DetailViewController.swift in Sources */,
+				127686012139140200C6544F /* Animal+CoreDataProperties.swift in Sources */,
 				12768519212D4CCA00C6544F /* Monash_App.xcdatamodeld in Sources */,
+				1267E76D213EAEFD00FA1200 /* IconCollectionViewController.swift in Sources */,
+				1267E76F213EAF6A00FA1200 /* IconCollectionViewCell.swift in Sources */,
+				1280A55C2142139400D6C16D /* CustomPointAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
